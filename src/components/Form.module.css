@@ -14,8 +14,7 @@
     color: white;
 }
 
-.Form input[type=text],
-.Form input[type=password] {
+.Form input[type=text], .Form input[type=password] {
     min-height: 40px;
     width: 100%;
     margin-bottom: 20px;
@@ -27,8 +26,7 @@
     font-size: .8rem;
 }
 
-.Form input[type=text]::placeholder,
-.Form input[type=password]::placeholder {
+.Form input[type=text]::placeholder, .Form input[type=password]::placeholder {
     color: #ccc;
     font-size: .8rem;
     text-transform: uppercase;
@@ -75,7 +73,6 @@
     text-transform: uppercase;
 }
 
-.error::before,
-.error::after {
+.error::before, .error::after {
     content: '❌';
 }
